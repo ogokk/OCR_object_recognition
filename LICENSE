@@ -24,7 +24,7 @@ SOFTWARE.
 
 This project includes the following third-party library:
 
-- `pytesseract`: Python wrapper for Google's Tesseract-OCR Engine. Licensed under the Apache License 2.0.
+- "pytesseract": Python wrapper for Google's Tesseract-OCR Engine. Licensed under the Apache License 2.0.
 
 ---
 
