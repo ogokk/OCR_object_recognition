@@ -1,6 +1,6 @@
 """
 Oracle DB connection check
-@author: Ozan Gökkan
+@author: Ozan GÃ¶kkan
 """
 
 import cx_Oracle as cx
@@ -25,8 +25,8 @@ non_20_40 = []
 db_check = cursor.execute("select distinct item_code,\
                           (select deger from item_property where item_code = o.item_code and property_code = 1)\
                           iso_code from OCR_LOG o where record_date between \
-                          to_date('25.05.2019 10:00:00','dd.mm.yyyy hh24:mi:ss') \
-                          and to_date('28.05.2019 12:00:00','dd.mm.yyyy hh24:mi:ss')")
+                          to_date('25.05.2024 10:00:00','dd.mm.yyyy hh24:mi:ss') \
+                          and to_date('28.05.2024 12:00:00','dd.mm.yyyy hh24:mi:ss')")
 
 for counter in db_check:
     container_log.append(counter)
