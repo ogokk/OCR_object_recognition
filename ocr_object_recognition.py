@@ -1,7 +1,4 @@
-"""
-Container ID recognition system from auto-capturing to DB transaction.
-@author: Ozan Gökkan
-"""
+
 import pyodbc
 import numpy as np
 from PIL import Image
