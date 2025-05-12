@@ -1,7 +1,3 @@
-"""
-Oracle DB connection check
-@author: Ozan Gökkan
-"""
 
 import cx_Oracle as cx
 import time
