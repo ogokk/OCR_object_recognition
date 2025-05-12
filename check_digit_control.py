@@ -1,7 +1,3 @@
-"""
-Check digit extraction using container ID 
-@author: Ozan Gökkan
-"""
 
 container_id = input("enter the container ID :")
 first_ten_digit = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512] 
