@@ -1,7 +1,4 @@
-"""
-FTP server connection test for file retrieve and delete
-@author: ozangokkan
-"""
+
 from ftplib import FTP
 import os
 
