@@ -1,4 +1,4 @@
-<h1 align="center" style="font-size: 28px;">
+<h1 align="center" style="font-size: 18px;">
 Orchestrating Computer Vision and Sensors with Communication Protocols:<br>
 Container ID-Aware Image Processing and AI-Driven OCR System in Fully-Automated Workflow
 </h1>
